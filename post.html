@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .post{
+            background-color: lightblue;
+            padding: 25px;
+            margin: 15px;
+            border-radius: 8px;
+        }
+        .post h5{
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            color: chocolate;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: burlywood;">All post displayed here</h1>
+    <button onclick="Post()">load post</button>
+    <main class="all-post">
+        <h3>all posts down here</h3>
+        <div id="post-container">
+
+        </div>
+    </main>
+    <script src="post.js"></script>
+</body>
+</html>
